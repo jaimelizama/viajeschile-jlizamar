@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: #000000;
+}
+
+.logo {
+    height: 50px;
+}
+
+.navbar {
+    background-color: transparent;
+    z-index: 2;
+}
+
+.carrusel {
+    top: 0px;
+}
+
+#quienessomos, #destacados, #contacto{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.guion {
+    height: 1px;
+    background: aquamarine;
+}
+
+.card {
+    border-radius: 5%;
+    border: 20px;
+    color: azure;
+    opacity: 1;
+    border-color: azure;
+}
+
+
+.card-body {
+    background: aqua;
+    border: 2px;
+    opacity: 1;
+}
+
+.tarjeta {
+    height: 200px;
+}
+
+.iconos {
+    background: aqua;
+}
+
+footer {
+    background: aqua;
+    color: #ffffff;
+}
