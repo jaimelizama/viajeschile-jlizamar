@@ -3,6 +3,7 @@ body {
     padding: 0;
     border: 0;
     background: #000000;
+    font-family: 'Roboto', sans-serif;
 }
 
 .logo {
@@ -25,7 +26,7 @@ body {
 
 .guion {
     height: 1px;
-    background: aquamarine;
+    background: #17a3b8;
 }
 
 .card {
@@ -38,7 +39,7 @@ body {
 
 
 .card-body {
-    background: aqua;
+    background:#17a3b8;
     border: 2px;
     opacity: 1;
 }
@@ -48,10 +49,10 @@ body {
 }
 
 .iconos {
-    background: aqua;
+    background:#17a3b8;
 }
 
 footer {
-    background: aqua;
+    background:#17a3b8;
     color: #ffffff;
 }
