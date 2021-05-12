@@ -6,6 +6,12 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.bgcolor.scrolled {
+    background-color: #000000;
+    transition: 800ms;
+}
+
+
 .logo {
     height: 50px;
 }
@@ -35,6 +41,7 @@ body {
     color: azure;
     opacity: 1;
     border-color: azure;
+    cursor: pointer;
 }
 
 
@@ -55,4 +62,12 @@ body {
 footer {
     background:#17a3b8;
     color: #ffffff;
+}
+
+.icon {
+    color: #ffffff;
+}
+
+i {
+    cursor: pointer;
 }

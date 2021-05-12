@@ -15,26 +15,26 @@
 </head>
 <body>
 
-    <header>
-        <nav class="navbar navbar-expand-lg">
+    <header id="inicio">
+        <nav class="navbar navbar-expand-lg fixed-top navbar-dark bgcolor">
             <div class="container">
-                <a class="navbar-brand" href="#"><img src="./assets/img/viajes.svg" alt="Logo" class="img-fluid logo">Viajes Chile</a>
+                <a class="navbar-brand" href="#inicio"><img src="./assets/img/viajes.svg" alt="Logo" class="img-fluid logo mr-3">Viajes Chile</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+                            <a class="nav-link text-white" href="#inicio">Inicio <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Quienes Somos</a>
+                            <a class="nav-link" href="#quienessomos">Quienes Somos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Destacados</a>
+                            <a class="nav-link" href="#destacados">Destacados</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contacto</a>
+                            <a class="nav-link" href="#contacto">Contacto</a>
                         </li>
                     </ul>
                 </div>
@@ -74,23 +74,23 @@
             <div class="row py-4">
                 <div class="col-sm-4">
                     <div class="iconos text-center">
-                        <i class="fas fa-plane fa-2x"></i></a>
+                        <i class="fas fa-plane fa-2x" data-toggle="tooltip" data-placement="right" title="Vuelos"></i></a>
                     </div>
                     <p class="texto py-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, expedita fuga nemo illum obcaecati in, facilis nam fugit et illo debitis, rerum accusantium nesciunt laboriosam quia enim corporis minima nisi architecto dolorem repudiandae neque iusto minus. Ab atque incidunt eveniet cumque fuga officiis velit totam inventore ipsum, molestiae modi a libero, placeat exercitationem aliquam facere eos, iusto distinctio. Similique fuga qui impedit nam minima. Quia sed aliquam saepe explicabo non. Fugit placeat cumque neque quod.</p>
                 </div>
 
                 <div class="col-sm-4">
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, expedita fuga nemo illum obcaecati in, facilis nam fugit et illo debitis, rerum accusantium nesciunt laboriosam quia enim corporis minima nisi architecto dolorem repudiandae neque iusto minus. Ab atque incidunt eveniet cumque fuga officiis velit totam inventore ipsum, molestiae modi a libero, placeat exercitationem aliquam facere eos, iusto distinctio. Similique fuga qui impedit nam minima. Quia sed aliquam saepe explicabo non. Fugit placeat cumque neque quod.</p> 
+                    <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, expedita fuga nemo illum obcaecati in, facilis nam fugit et illo debitis, rerum accusantium nesciunt laboriosam quia enim corporis minima nisi architecto dolorem repudiandae neque iusto minus. Ab atque incidunt eveniet cumque fuga officiis velit totam inventore ipsum, molestiae modi a libero, placeat exercitationem aliquam facere eos, iusto distinctio. Similique fuga qui impedit nam minima. Quia sed aliquam saepe explicabo non. Fugit placeat cumque neque quod.</p> 
                     <div class="iconos text-center">
-                        <i class="fas fa-mountain fa-2x"></i></a>
+                        <i class="fas fa-mountain fa-2x" data-toggle="tooltip" data-placement="right" title="Montañas"></i></a>
                     </div>
                 </div>
 
                 <div class="col-sm-4">
                     <div class="iconos text-center">
-                        <i class="fas fa-route fa-2x"></i></a>
+                        <i class="fas fa-route fa-2x" data-toggle="tooltip" data-placement="right" title="Rutas"></i></a>
                     </div>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, expedita fuga nemo illum obcaecati in, facilis nam fugit et illo debitis, rerum accusantium nesciunt laboriosam quia enim corporis minima nisi architecto dolorem repudiandae neque iusto minus. Ab atque incidunt eveniet cumque fuga officiis velit totam inventore ipsum, molestiae modi a libero, placeat exercitationem aliquam facere eos, iusto distinctio. Similique fuga qui impedit nam minima. Quia sed aliquam saepe explicabo non. Fugit placeat cumque neque quod.</p>
+                    <p class="texto py-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, expedita fuga nemo illum obcaecati in, facilis nam fugit et illo debitis, rerum accusantium nesciunt laboriosam quia enim corporis minima nisi architecto dolorem repudiandae neque iusto minus. Ab atque incidunt eveniet cumque fuga officiis velit totam inventore ipsum, molestiae modi a libero, placeat exercitationem aliquam facere eos, iusto distinctio. Similique fuga qui impedit nam minima. Quia sed aliquam saepe explicabo non. Fugit placeat cumque neque quod.</p>
                 </div>
             </div> 
         </div>
@@ -152,14 +152,14 @@
 
     <footer>
         <div class="row mt-5">
-            <div class="col-sm-6 text-center mt-3">
-                <p>VIAJES CHILE</p>
+            <div class="col-sm-6 text-center mt-3 display-5">
+                <h3>VIAJES CHILE</h3>
             </div>
-            <div class="col-sm-6 text-center mt-3 iconosfooter">
-                <a href="https://github.com" target="_blank"><i class="fab fa-github-square fa-2x"></i></a>
-                <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
-                <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter-square fa-2x"></i></a>
-                <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+            <div class="col-sm-6 text-center mt-3">
+                <a href="https://github.com" target="_blank"><i class="fab fa-github-square fa-2x icon"></i></a>
+                <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin fa-2x ml-3 icon"></i></a>
+                <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter-square fa-2x ml-3 icon"></i></a>
+                <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-square fa-2x ml-3 icon"></i></a>
             </div>
 
     </footer>
@@ -167,10 +167,12 @@
 
 
 
-
+    <!--JQuery 3.6-->
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <!--Bootstrap 4.2.1-->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <!--Script JavaScript-->
     <script src="./assets/js/script.js"></script>
 
 
