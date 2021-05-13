@@ -12,29 +12,26 @@ $(document).ready(function(){
             }, 800, function(){
                 window.location.hash = gato;
             })
-
-        
         }
     });
 
-    //Cambio de color navbar al hacer scroll
+    //Cambio de color del navbar al hacer scroll
     $(window).scroll(function(){
-
         $('nav').toggleClass('scrolled', $(this).scrollTop()>50);
     });
     
 
-    //Tooltip Quienes Somos
+    //Tooltip Sección Quienes Somos
     $('[data-toggle="tooltip"]').tooltip()
 
     
-    //Hover Destacados (ingreso del cursor)
-    $('.col-sm-3').hover(function(){
+    //Hover Sección Destacados (ingreso del cursor)
+    $('.col-md-3').hover(function(){
         $(this).animate({marginTop: "-=1%",
         },200);
     },
 
-    //Hover Destacados (salida del cursor)    
+    //Hover Sección Destacados (salida del cursor)    
     function(){
         $(this).animate({marginTop: "0%",
         },200);
