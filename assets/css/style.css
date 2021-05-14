@@ -1,73 +1,73 @@
 body {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    background: #000000;
-    font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: #000000;
+  font-family: "Roboto", sans-serif;
 }
 
 .bgcolor.scrolled {
-    background-color: #000000;
-    transition: 500ms;
+  background-color: #000000;
+  transition: 500ms;
 }
 
-
 .logo {
-    height: 50px;
+  height: 50px;
 }
 
 .navbar {
-    background-color: transparent;
-    z-index: 2;
+  background-color: transparent;
+  z-index: 2;
 }
 
 .carrusel {
-    top: 0px;
+  top: 0px;
 }
 
-#quienessomos, #destacados, #contacto{
-    background-color: #000000;
-    color: #ffffff;
+#quienessomos,
+#destacados,
+#contacto {
+  background-color: #000000;
+  color: #ffffff;
 }
 
 .guion {
-    height: 1px;
-    background: #17a3b8;
+  height: 1px;
+  background: #17a3b8;
 }
 
 .card {
-    border-radius: 5%;
-    border: 20px;
-    color: azure;
-    opacity: 1;
-    border-color: azure;
-    cursor: pointer;
+  border-radius: 5%;
+  border: 20px;
+  color: azure;
+  opacity: 1;
+  border-color: azure;
+  cursor: pointer;
 }
 
-
 .card-body {
-    background:#17a3b8;
-    border: 2px;
-    opacity: 1;
+  background: #17a3b8;
+  border: 2px;
+  opacity: 1;
 }
 
 .tarjeta {
-    height: 200px;
+  height: 200px;
 }
 
 .iconos {
-    background:#17a3b8;
+  background: #17a3b8;
 }
 
 footer {
-    background:#17a3b8;
-    color: #ffffff;
+  background: #17a3b8;
+  color: #ffffff;
 }
 
 .icon {
-    color: #ffffff;
+  color: #ffffff;
 }
 
 i {
-    cursor: pointer;
+  cursor: pointer;
 }
